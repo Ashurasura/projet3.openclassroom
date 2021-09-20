@@ -1,0 +1,21 @@
+@media all and (max-width:667px)
+{
+
+    .titre
+    {
+        width: 50%;
+        align-items: center;
+    }
+
+    .image
+    {
+        width: 90%;
+        align-items: center;
+    }
+
+    .titre_footer
+    {
+        width: 20%;
+    }
+
+}
