@@ -184,6 +184,7 @@
 
     .titre_second
     {
+        padding-top: 5px;
         padding-bottom: 15px;
         font-size: 14px;
     }
@@ -191,7 +192,7 @@
     .coeur, .coeur2
     {
         padding-top: 5px;
-        font-size: 24px;
+        font-size: 22px;
         position: absolute;
         right: 20px;
     }
@@ -203,9 +204,12 @@
 
     .coeur2:hover
     {
-        transition: 2s;
-        color: #9356DC;
-        background-color: transparent;
+        transition: 1s;
+        background: linear-gradient(#FF79DA, #9356DC);
+        background-clip: text;
+        color: transparent;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
         opacity: 1;
     }
 
