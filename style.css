@@ -39,12 +39,23 @@
         box-shadow: #7a7a7a 0px 0px 5px 0;
         padding-top: 10px;
         padding-bottom: 10px;
-        background-color: rgb(230, 222, 222);
+        background-color: #EAEAEA;
     }
 
     .localisation
     {
         padding-right: 10px;
+        padding-top: 7px;
+    }
+
+    input
+    {
+       font-weight: bolder;
+       font-size: medium;
+       padding-left: 20px;
+       border: none;
+       border: 1px solid #F2F2F2;
+       background-color: #EAEAEA;
     }
 
     .bloc_accueil
@@ -487,19 +498,19 @@
         {
             opacity: 1;
             transform: rotate(360deg);
-            border-width: 10px;
+            border-width: 20px;
         }
     }
 
     .loading
     {
-        width: 100px;
-        height: 100px;
+        width: 250px;
+        height: 250px;
         position: relative;
-        top: 200px;
+        top: 400px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: -100px;
+        margin-top: -250px;
     }
 
     .loading div
@@ -585,6 +596,11 @@
         .commande
         {
             width: 500px;
+        }
+
+        .titre_principale
+        {
+            width: 25%;
         }
 
 
