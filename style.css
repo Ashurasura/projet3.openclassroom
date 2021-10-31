@@ -10,7 +10,7 @@
     {
         margin: 0%;
         text-align: center;
-        font-family: 'roboto';
+        font-family: 'roboto', sans-serif, Arial;
     }
 
     .fleche
@@ -289,7 +289,7 @@
     .titre_menu
     {
         font-style: italic;
-        font-family: 'shrikhand';
+        font-family: 'shrikhand',sans-serif,Arial;
         font-size: 26px;
         font-weight: bolder;
         padding-top: 25px;
